@@ -33,64 +33,136 @@
 
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="index.html"></a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="index.html">Home</a>
+ <div class="container">
+    <div class="row">
+      <div class="sidebar col-md-3">
+        <div class="fixed-container">
+          <div class="fixed-sidebar">
+            <header class="d-block mx-auto h-card">
+              <div class="row">
+                
+                <div class="contact-block col-xs-9 col-md-12">
+                  <a href="/" class="name-link u-url" rel="me">
+                    <div class="h5 text-center font-weight-bold p-name">Mamadou Traore</div>
+                  </a>
+                  <ul class="list-inline text-center contact-icons">
+                    <li class="list-inline-item">
+                      <a href="mailto:maktraore2000@gmail.com" title="Email: maktraore2000@gmail.com" rel="me" class="u-email">
+                        <i class="fa fa-lg fa-envelope"></i>
+                      </a>
                     </li>
-                    <li>
-                        <a href="about.html">About</a>
+                    <li class="list-inline-item">
+                      <a href="https://twitter.com/seybamanan" title="@seyba on Twitter" rel="me">
+                        <i class="fa fa-lg fa-twitter"></i>
+                      </a>
                     </li>
-                    <li>
-                        <a href="portfolio.html">Portfolio</a>
+                    <li class="list-inline-item">
+                      <a href="https://github.com/maktraore" title="@maktraore on GitHub" rel="me">
+                        <i class="fa fa-lg fa-github"></i>
+                      </a>
                     </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Page Header -->
-    <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="{color:black;}">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="site-heading">
-                    <h2>Hey I am Mamadou</h2>
-                        <p>I'm a full-stack web developer with a passion for clean, readable code. Python and JavaScript are my tools of choice.
-
-                            I'm an open sourcerer. I believe that sharing knowledge benefits everyone, and that community is more important than code.
-
-                            I'm a technical trainer and public speaker. I have a knack for explaining complicated topics in an approachable manner, and I'm not afraid to do so in front of an audience.
-
-                            I'm also a hypnotist, a nerd, and a friend. I like computers, but there's a lot more to life than code.
-
-                            I live in Amsterdam, but I travel a lot. I offer in-person training services for individuals or teams. I'm also available for both short-term and long-term software development contracts. Contact me to learn more. (My contact info is at the top left of every page of this site, just below my name.)</p>
-                        <hr class="small">
-                        <span class="subheading">This is Mamadou's blog</span>
-                    </div>
+                  </ul>
                 </div>
-            </div>
+              </div>
+            </header>
+
+            <hr class="hidden-sm-down">
+
+            
+
+            <nav id="nav-menu" class="collapse nav-menu">
+              <ul class="nav nav-first flex-column">
+                
+                  <li class="nav-item">
+                    <a class="nav-link d-inline-block " href="/blog/">Blog</a>
+                    
+                      <a href="/blog/feed.xml" class="d-inline-block hover-icon">
+                        <i class="fa fa-rss" title="Atom Feed"></i>
+                        <span class="sr-only">Atom Feed</span>
+                      </a>
+                    
+                  </li>
+                
+                  <li class="nav-item">
+                    <a class="nav-link d-inline-block " href="/projects/">Projects</a>
+                    
+                  </li>
+                
+                  <li class="nav-item">
+                    <a class="nav-link d-inline-block " href="/tutorials/">Tutorials</a>
+                    
+                  </li>
+                
+                  <li class="nav-item">
+                    <a class="nav-link d-inline-block " href="/presentations/">Presentations</a>
+                    
+                  </li>
+                
+                  <li class="nav-item">
+                    <a class="nav-link d-inline-block " href="/testimonials/">Testimonials</a>
+                    
+                  </li>
+                
+                  <li class="nav-item">
+                    <a class="nav-link d-inline-block " href="/resume/">Résumé</a>
+                    
+                      <a href="/resume/davidbaumgold.pdf" class="d-inline-block hover-icon">
+                        <i class="fa fa-file-pdf-o" title="PDF Resume"></i>
+                        <span class="sr-only">PDF Resume</span>
+                      </a>
+                    
+                  </li>
+                
+                  <li class="nav-item">
+                    <a class="nav-link d-inline-block " href="/names/">Names</a>
+                    
+                  </li>
+                
+              </ul>
+              <ul class="nav flex-column">
+                
+                 <li class="nav-item">
+                    <a class="nav-link " href="/training/">Training</a>
+                  </li>
+                
+                 <li class="nav-item">
+                    <a class="nav-link " href="/consulting/">Consulting</a>
+                  </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.quietstrengthhypnosis.com/">Hypnosis</a>
+                </li>
+              </ul>
+
+              <hr class="hidden-md-up">
+            </nav>
+          </div>
         </div>
-    </header>
+      </div>
+      <div id="start-of-content" class="sr-only"></div>
+      <div class="col-md-9 page">
+        
+  <h1>Hey, I'm DB.</h1>
+  <p>I'm a full-stack web developer with a passion for clean, readable code.
+Python and JavaScript are my tools of choice.</p>
+<p>I'm an open sourcerer. I believe that sharing knowledge benefits
+everyone, and that community is more important than code.</p>
+<p>I'm a technical trainer and public speaker. I have a knack for explaining
+complicated topics in an approachable manner, and I'm not afraid to do so
+in front of an audience.</p>
+<p>I'm also a hypnotist, a nerd, and a friend. I like computers, but there's a lot
+more to life than code.</p>
+<p>I live in Amsterdam, but I travel a lot. I offer in-person training
+services for individuals or teams. I'm also available for both short-term
+and long-term software development contracts. Contact me to learn more.
+(My contact info is at the top left of every page of this site, just below
+my name.)</p>
+
+
+      </div>
+    </div>
+  </div>
+
 
     <!-- Main Content -->
     <div class="container">
@@ -158,32 +230,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <ul class="list-inline text-center">
-                        <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
+                   
                     <p class="copyright text-muted">Copyright &copy; My Website 2017</p>
                 </div>
             </div>
